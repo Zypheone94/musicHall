@@ -3,7 +3,7 @@ import styles from '../styles/button.module.css';
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between'>
+    <div className='flex w-full justify-between items-center'>
         <div>Logo</div>
         <nav>
             <ul className='flex list-none'>
@@ -18,7 +18,7 @@ const Navbar = () => {
             <span>G</span>
             <span>I</span>
         </div>
-        <button className={`${styles.button}`}>Login</button>
+        <button className={`${styles.button} text-white`}>Login</button>
     </div>
   )
 }

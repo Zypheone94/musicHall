@@ -11,7 +11,7 @@ export default function Home() {
       id="container"
       className={`flex min-h-screen flex-col items-center justify-between px-20 ${inter.className}`}
     >
-      <div>
+      <div id="app-body" className="w-full">
         <Navbar />
       </div>
     </main>
